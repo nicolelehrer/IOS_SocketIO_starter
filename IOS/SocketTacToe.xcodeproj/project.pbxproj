@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53BA908E7D0393F796C58D13 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E18FEE640F6E735EE17B8D /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A297DA491B6816D500BF6208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297DA481B6816D500BF6208 /* AppDelegate.swift */; };
+		A297DA4B1B6816D500BF6208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297DA4A1B6816D500BF6208 /* ViewController.swift */; };
+		A297DA4E1B6816D500BF6208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A297DA4C1B6816D500BF6208 /* Main.storyboard */; };
+		A297DA501B6816D500BF6208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A297DA4F1B6816D500BF6208 /* Images.xcassets */; };
+		A297DA531B6816D500BF6208 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A297DA511B6816D500BF6208 /* LaunchScreen.xib */; };
+		A297DA5F1B6816D500BF6208 /* SocketTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297DA5E1B6816D500BF6208 /* SocketTacToeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A297DA591B6816D500BF6208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A297DA3B1B6816D500BF6208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A297DA421B6816D500BF6208;
+			remoteInfo = SocketTacToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E18FEE640F6E735EE17B8D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C64DFB0CEB7CC4F4A74653 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A297DA431B6816D500BF6208 /* SocketTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A297DA471B6816D500BF6208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A297DA481B6816D500BF6208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A297DA4A1B6816D500BF6208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A297DA4D1B6816D500BF6208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A297DA4F1B6816D500BF6208 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A297DA521B6816D500BF6208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A297DA581B6816D500BF6208 /* SocketTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A297DA5D1B6816D500BF6208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A297DA5E1B6816D500BF6208 /* SocketTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTacToeTests.swift; sourceTree = "<group>"; };
+		EA2F18095A618B887A0A2E98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A297DA401B6816D500BF6208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BA908E7D0393F796C58D13 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A297DA551B6816D500BF6208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635A1208FA3161CBA92D58A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E18FEE640F6E735EE17B8D /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A297DA3A1B6816D500BF6208 = {
+			isa = PBXGroup;
+			children = (
+				A297DA451B6816D500BF6208 /* SocketTacToe */,
+				A297DA5B1B6816D500BF6208 /* SocketTacToeTests */,
+				A297DA441B6816D500BF6208 /* Products */,
+				E2DA6042BB86E92F01545A97 /* Pods */,
+				635A1208FA3161CBA92D58A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A297DA441B6816D500BF6208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A297DA431B6816D500BF6208 /* SocketTacToe.app */,
+				A297DA581B6816D500BF6208 /* SocketTacToeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A297DA451B6816D500BF6208 /* SocketTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				A297DA481B6816D500BF6208 /* AppDelegate.swift */,
+				A297DA4A1B6816D500BF6208 /* ViewController.swift */,
+				A297DA4C1B6816D500BF6208 /* Main.storyboard */,
+				A297DA4F1B6816D500BF6208 /* Images.xcassets */,
+				A297DA511B6816D500BF6208 /* LaunchScreen.xib */,
+				A297DA461B6816D500BF6208 /* Supporting Files */,
+			);
+			path = SocketTacToe;
+			sourceTree = "<group>";
+		};
+		A297DA461B6816D500BF6208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A297DA471B6816D500BF6208 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A297DA5B1B6816D500BF6208 /* SocketTacToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A297DA5E1B6816D500BF6208 /* SocketTacToeTests.swift */,
+				A297DA5C1B6816D500BF6208 /* Supporting Files */,
+			);
+			path = SocketTacToeTests;
+			sourceTree = "<group>";
+		};
+		A297DA5C1B6816D500BF6208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A297DA5D1B6816D500BF6208 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2DA6042BB86E92F01545A97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F18095A618B887A0A2E98 /* Pods.debug.xcconfig */,
+				41C64DFB0CEB7CC4F4A74653 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A297DA421B6816D500BF6208 /* SocketTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A297DA621B6816D500BF6208 /* Build configuration list for PBXNativeTarget "SocketTacToe" */;
+			buildPhases = (
+				9199BCCA51BD4A6C7C917FFA /* Check Pods Manifest.lock */,
+				A297DA3F1B6816D500BF6208 /* Sources */,
+				A297DA401B6816D500BF6208 /* Frameworks */,
+				A297DA411B6816D500BF6208 /* Resources */,
+				80A59B47963F25DC1B12F7BB /* Embed Pods Frameworks */,
+				28A791D8363C8A461E5C51BA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketTacToe;
+			productName = SocketTacToe;
+			productReference = A297DA431B6816D500BF6208 /* SocketTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A297DA571B6816D500BF6208 /* SocketTacToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A297DA651B6816D500BF6208 /* Build configuration list for PBXNativeTarget "SocketTacToeTests" */;
+			buildPhases = (
+				A297DA541B6816D500BF6208 /* Sources */,
+				A297DA551B6816D500BF6208 /* Frameworks */,
+				A297DA561B6816D500BF6208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A297DA5A1B6816D500BF6208 /* PBXTargetDependency */,
+			);
+			name = SocketTacToeTests;
+			productName = SocketTacToeTests;
+			productReference = A297DA581B6816D500BF6208 /* SocketTacToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A297DA3B1B6816D500BF6208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nicole Lehrer";
+				TargetAttributes = {
+					A297DA421B6816D500BF6208 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A297DA571B6816D500BF6208 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A297DA421B6816D500BF6208;
+					};
+				};
+			};
+			buildConfigurationList = A297DA3E1B6816D500BF6208 /* Build configuration list for PBXProject "SocketTacToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A297DA3A1B6816D500BF6208;
+			productRefGroup = A297DA441B6816D500BF6208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A297DA421B6816D500BF6208 /* SocketTacToe */,
+				A297DA571B6816D500BF6208 /* SocketTacToeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A297DA411B6816D500BF6208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A297DA4E1B6816D500BF6208 /* Main.storyboard in Resources */,
+				A297DA531B6816D500BF6208 /* LaunchScreen.xib in Resources */,
+				A297DA501B6816D500BF6208 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A297DA561B6816D500BF6208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28A791D8363C8A461E5C51BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A59B47963F25DC1B12F7BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9199BCCA51BD4A6C7C917FFA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A297DA3F1B6816D500BF6208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A297DA4B1B6816D500BF6208 /* ViewController.swift in Sources */,
+				A297DA491B6816D500BF6208 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A297DA541B6816D500BF6208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A297DA5F1B6816D500BF6208 /* SocketTacToeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A297DA5A1B6816D500BF6208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A297DA421B6816D500BF6208 /* SocketTacToe */;
+			targetProxy = A297DA591B6816D500BF6208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A297DA4C1B6816D500BF6208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A297DA4D1B6816D500BF6208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A297DA511B6816D500BF6208 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A297DA521B6816D500BF6208 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A297DA601B6816D500BF6208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A297DA611B6816D500BF6208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A297DA631B6816D500BF6208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2F18095A618B887A0A2E98 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocketTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A297DA641B6816D500BF6208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C64DFB0CEB7CC4F4A74653 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocketTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A297DA661B6816D500BF6208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocketTacToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketTacToe.app/SocketTacToe";
+			};
+			name = Debug;
+		};
+		A297DA671B6816D500BF6208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocketTacToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketTacToe.app/SocketTacToe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A297DA3E1B6816D500BF6208 /* Build configuration list for PBXProject "SocketTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A297DA601B6816D500BF6208 /* Debug */,
+				A297DA611B6816D500BF6208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A297DA621B6816D500BF6208 /* Build configuration list for PBXNativeTarget "SocketTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A297DA631B6816D500BF6208 /* Debug */,
+				A297DA641B6816D500BF6208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A297DA651B6816D500BF6208 /* Build configuration list for PBXNativeTarget "SocketTacToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A297DA661B6816D500BF6208 /* Debug */,
+				A297DA671B6816D500BF6208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A297DA3B1B6816D500BF6208 /* Project object */;
+}
